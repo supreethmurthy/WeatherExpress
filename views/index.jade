@@ -1,0 +1,23 @@
+extends layout
+
+block content
+  
+  p  Weather Information
+
+  table.border
+    thead
+      tr
+        th.border City
+        th.border Temperature  (F)
+    tbody
+      - each weatherInformation in weatherInformationList
+        tr.border
+          td.border= weatherInformation.city
+          td.border= weatherInformation.temp
+        
+  style.
+    .border 
+    { 
+    border: 1px solid black;    
+    width:300px 
+    } 
