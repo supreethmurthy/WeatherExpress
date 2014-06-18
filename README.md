@@ -1,4 +1,5 @@
-
+# Start the app
+Start the server by using the command node.js
 
 # WeatherExpress
 This project was implemented as part of Paypal's High Jump Exercise.
